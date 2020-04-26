@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meu Primeiro Programa...</title>
+    <style>
+        body {
+            background-color: rgb(105, 105, 173);
+            color: white;
+            font: normal 20pt Arial; /*Comentario em CSS*/
+        }
+        h1 {
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1> <!--Comentario em HTML-->
+    <p>Já me livrei da maldição!!!</p>
+    <script>
+        var n1 = Number.parseFloat(window.prompt('Primeiro número:')) //Prompt sempre retorna uma String
+        var n2 = Number.parseFloat(window.prompt('Segundo número:')) //parseInt é para inteiros, parseFloat reais! Se deixar só Number dá certo também
+        var soma = n1 + n2
+        window.alert('A soma é: ' + String(soma) + '!') //String() transforma número em string! Nesse caso aqui não é necessário usar
+        // (number + number) para adição
+        // (String + String) para concatenação
+    </script>
+</body>
+</html>
